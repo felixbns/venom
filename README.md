@@ -1,6 +1,8 @@
 # venom
 ## Awsome french toolkit for Kali Linux Ethical hacking.
 
+[![Image](https://i.goopics.net/RQoRA.png)](https://goopics.net/i/RQoRA)
+
 ### Bienvenue et merci d'avoir téléchargé VENOM.
 
 VENOM est un programme de hacking éthique permettant à n'importe quelle personne de réaliser des actions de pentesting ayant
