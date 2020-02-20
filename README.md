@@ -15,9 +15,11 @@ Le hacking est une activité illégale et passible de très lourdes sanctions : 
 
 ### Installation de VENOM :
 Assurez vous de n'ouvrir les fichiers que sous le système d'exploitation Kali Linux.
-* Il peut y avoir des problèmes lors de l'écexution du programme s'il fonctionne sous Kali-Linux light.
-* Décompressez l'archive à l'endroit où vous souhaitez installer VENOM.
-* Il suffit ensuite d'ouvrir un terminal et rentrer les commandes suivantes :
+* /!\ Il peut y avoir des problèmes lors de l'écexution du programme s'il fonctionne sous Kali-Linux light.
+* Il suffit d'ouvrir un terminal et rentrer les commandes suivantes :
+```
+git clone https://github.com/felixbns/venom.git
+```
 ```
 cd venom
 ```
