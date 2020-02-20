@@ -22,7 +22,7 @@ resize -s 50 140 | grep "gfdsqjhgfdezscvvvf" > /dev/null 2>&1
 clear
 
 echo -e "$BOLD$RED
- _  __   _   _____       ___   _       _           ___   _____   _   _____   __   _  
+ _   __   _   _____      ___   _       _           ___   _____   _   _____   __   _  
 | | |  \ | | |_   _|    /   | | |     | |         /   | |_   _| | | /  _  \ |  \ | | 
 | | |   \| |   | |     / /| | | |     | |        / /| |   | |   | | | | | | |   \| | 
 | | | |\   |   | |    / /_| | | |     | |       / /_| |   | |   | | | | | | | |\   | 
@@ -71,12 +71,12 @@ echo -e "$GREEN$BOLD [+]$DEFAULT$CYAN Autorisation effectuée !$DEFAULT"
 cd
 echo -e "
 $BLUE [...]$DEFAULT$CYAN Activation de la recherche rapide Metasploit.$DEFAULT"
+echo -e "$ORANGE$BOLD [!]$DEFAULT$CYAN Entrez$ORANGE 'exit'$DEFAULT lorsque 'msf>' apparaîtra.$DEFAULT"
 
 systemctl start postgresql > /dev/null 2>&1
 msfdb init > /dev/null 2>&1
 echo "db_rebuild_cache" > $path/logs/cache_metasploit
 msfconsole -q -r $path/logs/cache_metasploit
-exit
 rm $path/logs/cache_metasploit > /dev/null 2>&1
 echo -e "$GREEN$BOLD [+]$DEFAULT$CYAN Installation effectuée !$DEFAULT"
 
