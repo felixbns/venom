@@ -30,6 +30,13 @@ chmox +x installation.sh
 ./installation.sh
 ```
 
+### Utilisation de VENOM :
+Afin d'utiliser VENOM après son installation (voir ci-dessus), il vous suffira d'entrer la commande suivante dans un terminal afin de lancer l'application.
+```
+venom
+```
+Ensuite, les actions sont guidées, vous serez amenés à entrer le numéro de la commande à exécuter et les reinseignements nécessaires à l'éxécution de cette commande.
+
 ### Auteur
 * **Félix Bonnes** - *Venom creator* - 01/2020
 
